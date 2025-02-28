@@ -1,0 +1,45 @@
+.navbar {
+  justify-content: space-between;
+  background: antiquewhite;
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  .navbar-brand img {
+    width: 65px;
+    border-radius: 30% 10%;
+  }
+
+  .btn-flat {
+    background-color: #768EA6;
+    border-radius: 4px;
+    color: #E1D794;
+    padding: 0;
+    margin: 0;
+
+    .nav-link {
+      color: #E1D794 !important;
+    }
+
+    &:hover {
+      background-color: #E1D794;
+      color: #768EA6;
+
+      .nav-link {
+        color: #768EA6 !important;
+      }
+    }
+  }
+
+  .title {
+    margin-right: auto;
+    margin-left: 50px;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #768EA6;
+  }
+}
